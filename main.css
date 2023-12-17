@@ -1,0 +1,34 @@
+/* Rutherford Labbe: 11-06-2023 */
+
+/* @font-face works in internal and external styling.
+            Note: Must include src: url(../); or src: url("../");  
+*/
+@font-face {
+    font-family: 'myFont';
+    src: url(../Bespoke-IIsD_dT9yc.otf);
+}
+
+body {
+    font-family:'myFont';
+    background-color: #FDEEDC;
+}
+
+/* Styles for p */
+p{
+    /* Center element horizontally and vertically */
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Sets up the font */
+    font-family: 'myFont';
+    background-color: #FDEEDC;
+
+    color: #F1A661;
+    padding: 80px;
+    font-size: 1.5vw;
+    border-radius: 20px;
+    outline: 7px solid #F1A661;
+}
+
